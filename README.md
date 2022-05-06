@@ -1,4 +1,4 @@
-## Sandy Huang's personal portfolio
+# Sandy Huang's personal portfolio
 
 
 ## Authors
