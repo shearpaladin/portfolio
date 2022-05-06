@@ -64,7 +64,10 @@
     text-decoration: none;
 
     @include respond(phone) {
-      -webkit-text-fill-color: $secondary-color;
+      //-webkit-text-fill-color: $secondary-color;
+      background: -webkit-linear-gradient($primary-color, $secondary-color);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 
     &::after {
@@ -83,7 +86,7 @@
   }
 
   &:hover {
-    color: $secondary-color;
+    color: -webkit-linear-gradient($primary-color, $secondary-color);
     text-decoration: none;
 
     &::after {
