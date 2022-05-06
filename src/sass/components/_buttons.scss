@@ -39,9 +39,12 @@
   }
 
   @include respond(phone) {
-    background-image: none;
-    border: 2px solid $secondary-color;
-    -webkit-text-fill-color: $secondary-color;
+    //background-image: none;
+    //border: 2px solid $secondary-color;
+    //-webkit-text-fill-color: $secondary-color;
+    background: -webkit-linear-gradient($primary-color, $secondary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   &::after {
