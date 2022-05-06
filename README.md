@@ -1,5 +1,6 @@
 # Sandy Huang's personal portfolio
 
+This portfolio has been customized by me from "simplefolio"
 
 ## Authors
 
