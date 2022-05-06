@@ -4,6 +4,7 @@
 ## Authors
 
 - Credit goes to **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
+- Cloned from https://github.com/cobiwave/simplefolio
 
 ## Status
 
